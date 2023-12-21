@@ -1,1 +1,35 @@
-
+{
+    "name": "tulparstudyo/helper",
+    "description": "Portable Tulparstudyo",
+    "type": "library",
+    "keywords": [
+        "php",
+    ],
+    "homepage": "https://github.com/tulparstudyo/helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tulparstudyo",
+            "homepage": "http://www.tulparstudyo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0 || ~7.0 || ~9.0"
+    },
+    "suggest": {
+        "ext-intl": "Use Tulparstudyo"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tulparstudyo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tulparstudyo\\tests\\": "tests/",
+        }
+    }
+}
