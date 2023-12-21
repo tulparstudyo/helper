@@ -3,7 +3,7 @@
     "description": "Portable Tulparstudyo",
     "type": "library",
     "keywords": [
-        "php",
+        "php"
     ],
     "homepage": "https://github.com/tulparstudyo/helper",
     "license": "MIT",
